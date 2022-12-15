@@ -1,0 +1,21 @@
+const pokemon_type = Object.freeze({
+    Bug: 'Bug',
+    Dragon: 'Dragon',
+    Dark: 'Dark',
+    Electric: 'Electric',
+    Fighting: 'Fighting', 
+    Fire: 'Fire', 
+    Flying: 'Flying', 
+    Ghost: 'Ghost', 
+    Grass: 'Grass', 
+    Ground: 'Ground', 
+    Ice: 'Ice', 
+    Normal: 'Normal', 
+    Poison: 'Poison', 
+    Psychic: 'Psychic', 
+    Rock: 'Rock', 
+    Water: 'Water',
+    Fairy: 'Fairy',
+    Steel: 'Steel',
+    None: 'None'
+  });

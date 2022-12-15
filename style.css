@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+canvas {
+  display: block;
+}
+
+.toolbar {
+  display: flex;
+  background-color: #e2fdff;
+  justify-content: space-evenly;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.battlebar {
+  display: flex;
+  justify-content: left;
+  padding-left: 10px;
+}
+
+.utilbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
