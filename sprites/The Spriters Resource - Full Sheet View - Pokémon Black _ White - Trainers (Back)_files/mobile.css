@@ -1,0 +1,212 @@
+@media screen and (max-width: 999px) {
+    * {
+    	-webkit-text-size-adjust: 100%;
+    	-webkit-tap-highlight-color: transparent;
+    }
+    .nomobile {
+        display: none !important;
+    }
+    body, .wrap {
+        min-width: 350px;
+    }
+    #header {
+        text-align: center;
+    }
+    div[id^='mobile-menu-button-'] {
+        display: inline-block;
+    }
+    #nav {
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1000;
+        width: 100%;
+        text-align: center;
+    }
+    #nav a, .nav-header {
+        font-size: 18px;
+        padding: 5px;
+    }
+    #nav_top_mobile {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1000;
+        width: 100%;
+        text-align: center;
+        line-height: 16px;
+        font-weight: bold;
+    }
+    #nav_top_mobile a {
+        display: block;
+        font-size: 18px;
+        padding: 5px;
+        text-decoration: none;
+    }
+    #mobile_site_links a {
+        display: inline-block;
+        width: calc(25% - 2px);
+        padding: 0px;
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-left-style: solid;
+        border-right-style: solid;
+        vertical-align: top;
+        line-height: 28px;
+        font-size: 16px;
+    }
+    #mobile_search {
+        padding: 5px;
+    }
+    #mobile-nav-buttons {
+        text-align: center;
+        padding: 5px;
+    }
+    #mobile-nav-buttons a {
+        display: inline;
+    }
+    #other a {
+        font-size: 14px;
+    }
+    #toggle_other {
+        width: auto;
+    }
+    #letters {
+        height: auto;
+    }
+    #footer {
+        line-height: normal;
+    }
+    #footer-inner-mobile {
+        display: block;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    #body {
+        background-image: none !important;
+    }
+    #content {
+        width: 100%;
+    }
+    #category-container {
+        width: calc(100% - 20px) !important;
+        min-height: auto !important;
+        margin: 10px !important;
+        text-align: center;
+    }
+    #category-info {
+        width: 100% !important;
+    }
+    #game-icon-container {
+        width: 100% !important;
+    }
+    #add-item-text {
+        display: table-row !important;
+    }
+    .content-title-container {
+        height: auto;
+    }
+    .content-title {
+        height: auto;
+        margin: auto;
+        padding: 0px !important;
+    }
+    #game-info-wrapper {
+        height: auto !important;
+        min-height: 0px !important;
+        margin: 10px !important;
+    }
+    #game-info-wrapper .display {
+        width: 100% !important;
+    }
+    #sheet-container {
+        margin-top: -15px;
+    }
+    .sect-name {
+        width: calc(100% - 50px);
+    }
+    table .sect-count {
+        display: inline;
+    }
+    .zip-header {
+        margin-top: -10px;
+    }
+    .nsfw-warning {
+        margin-top: -15px;
+        margin-bottom: 25px !important;
+    }
+    #recent-uploads {
+        width: calc(100% - 20px) !important;
+    }
+    #update-container {
+        min-height: auto !important;
+    }
+    .updatemeta {
+        height: auto;
+    }
+    .comments-author {
+        word-wrap: break-word;
+    }
+    .comments-edit, .comments-user {
+        width: 0px;
+        font-size: 0px;
+    }
+    .sub-top-game {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+        padding: 3px 0px;
+    }
+    .sub-form {
+        width: calc(100% - 10px);
+        table-layout: fixed;
+    }
+    .sub-form td:first-child {
+        width: 20%;
+    }
+    .sub-form input, .sub-form select, .sub-form textarea {
+        max-width: 50%;
+    }
+    .button-title {
+        display: none !important;
+    }
+/*
+    div[id$='r-ad-header-small'], div[id$='r-ad-footer-small'], div[id$='r-ad-sidebar'] {
+        display: none;
+    }
+    div[id$='r-ad-header-mobile'], div[id$='r-ad-footer-mobile'], div[id$='r-ad-sidebar-mobile'] {
+        display: block;
+    }
+*/
+    #headerad {
+        height: 50px;
+    }
+    #headerad-container {
+        width: 100%;
+        text-align: center;
+    }
+    #sidebar-ad {
+        max-width: 100%;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .banner {
+        max-width: 320px;
+        max-height: 50px;
+    }
+    .skyscraper {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .square {
+        display: none;
+    }
+/*
+    .ac-player-wrapper {
+        max-width: 50% !important;
+        height: auto !important;
+    }
+*/
+}

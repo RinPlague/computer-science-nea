@@ -1,0 +1,34 @@
+@media screen and (max-width: 999px) {
+    div[id^='mobile-menu-button-'] {
+        text-shadow: 1px 1px 1px #492e2e;
+    }
+    #nav {
+        background-color: #d86363;
+        border-top: 1px #ac4343 solid;
+    }
+    #nav a, .nav-header {
+        border-bottom: 1px #ac4343 solid;
+    }
+    #nav_top_mobile {
+        background-color: #d86363;
+    }
+    #nav_top_mobile a {
+        color: #ffffff;
+        border-bottom: 1px #ac4343 solid;
+        text-shadow: 1px 1px 1px #492e2e;
+    }
+    #mobile_site_links a {
+        color: #ffffff;
+    }
+    #mobile_search {
+        background-color: #ac4343;
+        border-bottom: 1px #ac4343 solid;
+    }
+    #mobile-nav-buttons {
+        background-color: #ac4343;
+        border-bottom: 1px #ac4343 solid;
+    }
+    #sidebar-ad {
+        border-bottom: 1px #ac4343 solid;
+    }
+}

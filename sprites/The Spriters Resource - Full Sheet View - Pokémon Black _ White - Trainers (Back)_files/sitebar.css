@@ -1,0 +1,94 @@
+#sitebar {
+    background-color: #6191b9;
+    color: #ffffff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 0px;
+    font-weight:bold;
+    line-height: 20px;
+    height: 20px;
+    width: 100%;
+    padding: 0px;
+    clear: both;
+    z-index: 1000;
+    overflow: hidden;
+    box-shadow: inset 0px -10px 16px #467ead;
+}
+#sitebar a {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 12px;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #323887;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+    vertical-align: top;
+}
+#vglinks {
+    float: left;
+    clear: left;
+}
+#sitelinks {
+    float: right;
+    clear: right;
+}
+.tsr {
+    background-color: #c4686d;
+    text-shadow: 1px 1px 0px #873232;
+    border-left-color: #d78181;
+    border-right-color: #242b91;
+}
+.tmr {
+    background-color: #405ad3;
+    text-shadow: 1px 1px 0px #323887;
+    border-left-color: #7980de;
+    border-right-color: #5e2593;
+}
+.ttr {
+    background-color: #8a58af;
+    text-shadow: 1px 1px 0px #723287;
+    border-left-color: #ab77dd;
+    border-right-color: #259438;
+}
+.tsor {
+    background-color: #42cb61;
+    text-shadow: 1px 1px 0px #368732;
+    border-left-color: #77dd87;
+    border-right-color: #a3acb9;
+}
+#announcement {
+    width: calc(100% - 10px);
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+#announcement a, #announcement-preview a {
+    color: inherit;
+    text-decoration: underline;
+}
+/* Ad Display Fixes */
+/*
+div[id*='r-ad-header'] > div, div[id*='r-ad-footer'] > div {
+    top: 85px !important;
+}
+div[id$='r-ad-comments'] > div, div[id$='r-ad-content'] > div {
+    top: 245px !important;
+}
+div[id*='r-ad-sidebar'] > div {
+    top: 595px !important;
+}
+div[id*='r-ad-'] > div > a {
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+    height: 10px !important;
+    line-height: 10px !important;
+    background-color: #ffffff !important;
+    text-shadow: none !important;
+}
+img[src*='vid-io'] {
+    display: none;
+}
+*/

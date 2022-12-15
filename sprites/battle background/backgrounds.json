@@ -1,0 +1,104 @@
+{
+    "arena": [
+        {
+            "name": "normal",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "w": 24,
+                "h": 29   
+            }
+        },
+        {
+            "name": "sprite-01",
+            "position": {
+                "x": 24,
+                "y": 0,
+                "w": 24,
+                "h": 29   
+            }   
+        },
+        {
+            "name": "sprite-02",
+            "position": {
+                "x": 48,
+                "y": 0,
+                "w": 24,
+                "h": 29   
+            }   
+        },
+        {
+            "name": "sprite-03",
+            "position": {
+                "x": 72,
+                "y": 0,
+                "w": 24,
+                "h": 29
+            }   
+        },
+        {
+            "name": "sprite-04",
+            "position": {
+                "x": 0,
+                "y": 29,
+                "w": 24,
+                "h": 29   
+            }   
+        },
+        {
+            "name": "sprite-05",
+            "position": {
+                "x": 24,
+                "y": 29,
+                "w": 24,
+                "h": 29   
+            }      
+        },
+        {
+            "name": "sprite-06",
+            "position": {
+                "x": 48,
+                "y": 29,
+                "w": 24,
+                "h": 29   
+            } 
+        },
+        {
+            "name": "sprite-07",
+            "position": {
+                "x": 72,
+                "y": 29,
+                "w": 24,
+                "h": 29   
+            } 
+        },
+        {
+            "name": "sprite-08",
+            "position": {
+                "x": 0,
+                "y": 58,
+                "w": 24,
+                "h": 29   
+            } 
+        },
+        {
+            "name": "sprite-09",
+            "position": {
+                "x": 24,
+                "y": 58,
+                "w": 24,
+                "h": 29   
+            } 
+        },
+        {
+            "name": "sprite-10",
+            "position": {
+                "x": 48,
+                "y": 58,
+                "w": 24,
+                "h": 29   
+            } 
+        }
+
+    ]
+}
